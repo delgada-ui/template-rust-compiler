@@ -12,7 +12,7 @@
     "fmt:fix": "prettier --config ./.prettierrc --write \"**/*.{html,css,ts,js,md}\""
   },
   "devDependencies": {
-    "delgada": "^0.1.0",
+    "@delgada/cli": "^0.2.2",
     "onchange": "^7.1.0",
     "prettier": "^2.4.1",
     "serve": "^13.0.2"
