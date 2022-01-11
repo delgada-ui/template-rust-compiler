@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Welcome</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,12 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
-    <script type="module" src="index.js"></script>
-    <title>Hello World</title>
   </head>
   <body>
-    <app />
+    <app></app>
   </body>
 </html>
 
@@ -26,9 +24,28 @@
   body {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
-    color: white;
-    background-color: rgb(41, 42, 46);
+    font-size: 1.2rem;
+    color: rgb(30, 30, 33);
+    background-color: rgb(207, 222, 216);
     margin: 0;
     padding: 0;
+  }
+
+  @media (max-width: 767px) {
+    body {
+      font-size: 1rem;
+    }
+  }
+
+  a {
+    color: rgb(67, 42, 230);
+    text-decoration: none;
+  }
+
+  a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
   }
 </style>
