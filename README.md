@@ -1,4 +1,6 @@
-# Delgada Template
+# Delgada v1.0 Template
+
+_❗️ Note: This repository is deprecated and is no longer being maintained. Delgada itself is still being worked on, but has pivoted in a new direction. This repo will remain for posterity/archival purposes. ❗️_
 
 A starter template for building websites using [Delgada](https://github.com/delgada-ui/delgada).
 
